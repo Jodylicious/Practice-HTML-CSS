@@ -1,0 +1,183 @@
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  font-size: 100%;
+  box-sizing: border-box;
+}
+
+body {
+background:rgb(111, 146, 144);
+color: black;
+font: Helvetica;
+}
+
+.group:before,
+.group:after {
+content: "";
+display: flex;
+}
+.group:after {
+  clear: both;
+}
+.group {
+  clear: both;
+}
+
+
+ /* PRMARY HEADER */
+ .logo {
+  border-top: 10px solid darkslategrey;
+  float: left;
+  font-size: 48px;
+  font-weight: 100;
+  letter-spacing: .5px;
+  line-height: 44px;
+  padding: 40px 0 22px 0;
+  text-decoration: none;
+}
+.date {
+  margin: 60px 0 22px 0;
+  text-align: right;
+  color: darkslategray;
+}
+.primary-nav {
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: .5px;
+}
+.container {
+  padding-left: 30px;
+  padding-right: 30px;
+  margin: 0 auto;
+  width: 950px;
+}
+
+/* 3 picture sa baba */
+.row {
+  content: "";
+  display: inline-block;
+  clear: both;
+  min-width: 960px;
+  background: #fff;
+  padding: 30px 0px 30px 0px;
+}
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 60px;
+
+}
+.column p{
+  text-align: left;
+  margin-bottom: 2px;
+}
+.column img{
+  border-radius: 5px;
+  display: block;
+  margin-bottom: 22px;
+  max-width: 100%;
+}
+
+
+/* NAVIGATIONS */
+.nav {
+  text-align: right;
+}
+.nav li {
+  display: inline-block;
+  margin: 0 10px;
+  vertical-align: top;
+}
+
+
+/* HOME 
+hero- banner na kulay green*/
+.hero {
+  color: #fff;
+  line-height: 40px;
+  padding: 22px 80px 66px 80px;
+  text-align: center;
+}
+.hero h2 {
+  font-size: 35px;
+}
+.hero p {
+  font-size: 22px;
+  font-weight: 100;
+  margin-bottom: 20px;
+}
+.button{
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-weight: 400;
+  letter-spacing: 1px;
+  margin: 0;
+  border: 2px solid #fff;
+  padding: 10px 30px;
+}
+
+
+/* TYPOGRAPHY 
+h2- dedicated...
+h3-world class, inspiring, etc...
+h5-title sa taas ng 3 pic..
+*/
+
+h2 {
+  font-size: 25px;
+  line-height: 44px;
+  color: darkslategrey;
+  margin-bottom: 20px;
+}
+h3 {
+  font-size: 22px;
+  color: black;
+  margin-bottom: 20px;
+}
+h5 {
+  color: #3c484b;
+  font-size: 14px;
+  font-weight: 400px;
+  margin-bottom: 20px;
+}
+
+
+/* LINKS 
+a- style conferences
+prim-header- navigations sa taas
+prim-footer- navigations sa baba
+*/
+a {
+  color: #438375;
+  text-decoration: none;
+  font-weight: 400;
+}
+a:hover {
+  color: grey;
+}
+
+.primary-header a,
+.primary-footer a {
+  color: #fff;
+}
+.primary-header a:hover,
+.primary-footer a:hover {
+  color: #648880;
+}
+
+
+
+/* RRIMARY FOOTER - navigation sa baba*/
+.primary-footer {
+  color: #124439;
+  font-size: 14px;
+  padding-bottom: 44px;
+  padding-top: 44px;
+}
+.primary-footer p {
+  float: left;
+}
+  
